@@ -1,15 +1,16 @@
 # Pixel-A
 텐서플로우 활용기초 - 조별과제 2조 코드입니다.(Pixel-A)
 
+'cloud', 'sun', 'pants', 'umbrella', 'table', 'ladder', 'eyeglasses', 'clock', 'scissors', 'cup','apple','pizza','eye','frog','flower','hand','foot','donut','elephant','bicycle','candle','chair','face','fish','tree'을 인식 가능합니다.
 
 ## files
 
 * script/hand-quickdraw.py
   - 손그림 인식 프로그램  
-* script/QuickDraw.ipynb
-  - 손그림 인식 학습 code
 * script/quickdrawmodel.h5
   - 손그림 인식 모델
+* script/QuickDraw.ipynb
+  - 손그림 인식 학습 code
 
 
 ### script/QuickDraw.ipynb
@@ -23,7 +24,9 @@
 
 ```pip install -r requirements.txt```
 
-2. 실행
+2. 모델 불러오기
+
+3. 실행
 
 ```python script/hand-quickdraw.py```
 
